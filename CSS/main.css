@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #EBECEF;
+}
+nav {
+  padding: 20px;
+
+}
+nav ul {
+  display: inline-block;
+  width: 85%;
+  text-align: right;
+  word-spacing: 14px;
+  padding-bottom: 15px;
+  vertical-align: text-bottom;
+
+}
+nav ul li {
+  display: inline-block;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+
+}
+nav hr {
+  margin-top: 20px;
+  color: black;
+}
+/* beginning header */
+div.hello {
+  text-align: center;
+  line-height: 2;
+  padding-top: 15px;
+  font-weight: 400;
+  font-family:  monospace;
+  font-size: 20px;
+}
+.hello span {
+  color: #EDA9B8;
+}
+p.sub {
+  font-size: 15px;
+  font-family: serif;
+}
+/* middle image  */
+div.image {
+  padding: 25px;
+  width: 99%;
+}
+.image img {
+  border-radius: 2%;
+  width: 95%;
+  padding-left: 5px;
+
+}
+div.about {
+  padding: 40px;
+  display: inline-block;
+  width: 90%;
+}
+#first {
+  float: left;
+  padding-left: 15px
+}
+#second {
+  float: right;
+  padding-left: 15px;
+  }
+#first h5 {
+  text-align: center;
+  font-size: 20px;
+  color: #EBB9BD;
+  font-family: cursive;
+}
+#second h5 {
+  text-align: center;
+  font-size: 20px;
+  color: #EBB9BD;
+  font-family: cursive;
+}
+div.rows {
+  padding: 25px;
+  width: 90%;
+}
+.rows img {
+  width: 85%;
+  padding-left: 90px;
+}
+.end {
+  text-align: center;
+  font-size: 35px;
+  color: #EA98A7;
+  padding-top: 20px;
+
+}
+.end h4 {
+  font-family: cursive;
+  padding-bottom: 10px;
+}
+footer {
+
+  height: 250px;
+  background-color: #2D2D2D;
+  padding: 25px;
+}
+footer h5 {
+  font-family: cursive;
+  font-size: 30px;
+  color: #EA98A7;
+  padding-bottom: 5px;
+}
+footer form {
+  display: inline-grid;
+  width: 25%;
+}
+form input {
+
+  margin: 5px;
+}
+form textarea {
+  margin: 5px;
+}
+form button {
+  margin: 5px;
+  text-align: left;
+  color: white;
+  background-color: #2D2D2D;
+  width: 12%;
+  border: #2D2D2D;
+}
+div.socialmedia {
+  float: right;
+  padding-top: 70px;
+  letter-spacing: 10px;
+}
+ i  {
+  color: #2D2D2D;
+  background-color: #D47481;
+  border: 2px solid;
+  text-align: center;
+  border-radius: 50%;
+  padding-left: 7px;
+}
